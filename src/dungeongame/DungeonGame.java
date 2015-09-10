@@ -10,7 +10,7 @@ package dungeongame;
  *
  * @author Christopher
  */
-public class DungeonGame {
+class DungeonGame {
 
     /**
      * @param args the command line arguments

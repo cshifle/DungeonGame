@@ -10,6 +10,6 @@ package dungeongame;
  *
  * @author Christopher
  */
-public class GameState {
+class GameState {
     
 }
