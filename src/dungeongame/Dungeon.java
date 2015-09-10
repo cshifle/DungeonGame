@@ -5,7 +5,7 @@
  */
 
 package dungeongame;
-import java.util.Hashtable;
+import java.util.HashMap;
 /**
  *
  * @author Christopher
@@ -13,7 +13,7 @@ import java.util.Hashtable;
 public class Dungeon {
     
     //Create a hashtable.  Each key (the room name) is linked to a Room object
-    Hashtable<String, Room> dungeon = new Hashtable<String, Room>();
+    HashMap<String, Room> dungeon = new HashMap<>();
     String name;
     Room entry;
     
