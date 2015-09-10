@@ -12,4 +12,8 @@ package dungeongame;
  */
 class CommandFactory {
     
+    private CommandFactory(){
+        
+    }
+    
 }
