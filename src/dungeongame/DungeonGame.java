@@ -6,10 +6,13 @@
 
 package dungeongame;
 
-/**
- *
- * @author Christopher
- */
+/* This is the main() class that directs operations. For now, it should 
+create a new hardcoded Dungeon, initialize the GameState with it, and repeatedly
+prompt the user for input. Each time the user inputs a command, it should use 
+the CommandFactory to instantiate a new Command object and execute it. If the 
+user enters "q", it terminates the program.
+
+*/
 class DungeonGame {
 
     /**
@@ -18,7 +21,11 @@ class DungeonGame {
     public static void main(String[] args) {
         
         
-        // TODO code application logic here
+        
     }
     
+    public String promptUser(){
+        return ""; //placeholder
+        
+    }
 }

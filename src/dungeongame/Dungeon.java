@@ -5,11 +5,39 @@
  */
 
 package dungeongame;
-
+import java.util.Hashtable;
 /**
  *
  * @author Christopher
  */
 public class Dungeon {
     
+    //Create a hashtable.  Each key (the room name) is linked to a Room object
+    Hashtable<String, Room> dungeon = new Hashtable<String, Room>();
+    String name;
+    Room entry;
+    
+    public Dungeon(Room entry, String name){
+        this.name = name;    
+        this.entry = entry;
+        dungeon.put(name, entry);
+        
+    }
+    
+    public Room getEntry(){
+        return entry;
+       
+    }
+    
+    public String getName(){
+        return name;
+    }
+    
+    public void add(Room room){
+        dungeon.put(name, room);
+    }
+    
+    public Room getRoom(String roomTitle){
+        return dungeon.get(roomTitle);
+    }
 }

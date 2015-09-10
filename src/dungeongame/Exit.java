@@ -5,11 +5,35 @@
  */
 
 package dungeongame;
-
 /**
  *
  * @author Christopher
  */
 public class Exit {
+    String dir;
+    Room src;
+    Room dest;
+    
+    public Exit(String dir, Room src, Room dest){
+        
+        //initialize instance variables
+        this.dir = dir;
+        this.src = src;
+        this.dest = dest;
+        
+    }
+    
+    public String getDir(){
+        return dir;
+    }
+    
+    public Room getSrc(){
+        return src;
+    }
+    
+    public Room getDest(){
+        return dest;
+    }
+    
     
 }
