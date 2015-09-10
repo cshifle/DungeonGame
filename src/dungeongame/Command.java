@@ -11,5 +11,10 @@ package dungeongame;
  * @author Christopher
  */
 class Command {
+    String dir;
+    
+    Command(String dir){
+        this.dir = dir;
+    }
     
 }

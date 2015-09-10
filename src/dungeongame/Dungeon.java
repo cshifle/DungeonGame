@@ -6,13 +6,10 @@
 
 package dungeongame;
 import java.util.HashMap;
-/**
- *
- * @author Christopher
- */
+
 public class Dungeon {
     
-    //Create a hashtable.  Each key (the room name) is linked to a Room object
+    /*Create a HashMap.  Each key (the room name) is linked to a Room object */
     HashMap<String, Room> dungeon = new HashMap<>();
     String name;
     Room entry;
@@ -40,4 +37,5 @@ public class Dungeon {
     public Room getRoom(String roomTitle){
         return dungeon.get(roomTitle);
     }
+    
 }

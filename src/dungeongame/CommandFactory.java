@@ -12,8 +12,11 @@ package dungeongame;
  */
 class CommandFactory {
     
-    private CommandFactory(){
+    CommandFactory(){
         
     }
     
+    static void parse(String commandString){
+        
+    }
 }

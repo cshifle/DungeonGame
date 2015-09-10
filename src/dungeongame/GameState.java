@@ -18,4 +18,31 @@ the current room to be the dungeon's entry point.
 
 class GameState {
     
+   static Dungeon d;
+   static Room currentRoom;
+    
+   GameState(){
+       //nothing needs to be done
+   }
+    
+   GameState instance(){
+       return this;
+   }
+   
+   static void initialize(Dungeon dungeon){
+       d = dungeon;
+       currentRoom = d.getEntry();
+   }
+    
+   Room getAdventurersCurrentRoom(){
+       return currentRoom;
+   }
+   
+   static void setAdventurersCurrentRoom(Room room){
+       currentRoom = room;
+   }
+   
+   Dungeon getDungeon(){
+       return d;
+   }
 }

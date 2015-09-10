@@ -12,7 +12,7 @@ public class Room {
     //create instance variables
     String title, desc;
     boolean beenHere;
-    ArrayList exit = new ArrayList<Exit>();
+    ArrayList<Exit> exit = new ArrayList<>();
     
     public Room(String title, String desc, boolean beenHere){
         
