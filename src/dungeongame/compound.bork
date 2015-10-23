@@ -1,0 +1,271 @@
+Compound
+Bork v3.0
+===
+Items:
+GPS,nav,gps
+2
+use,look at:The GPS says go *that* way.|You still don't know where you are.
+turn on:GPS turned on.|Signal acquired.
+throw:There it goes.|Touchdown!|Why, though?|The GPS leads the way.
+shake:I don't think that's how you use it.|Shake, shake, shake!|It's not a salt shaker.
+kick:Your foot hurts.|Nice one!
+break,smash:This seems counterproductive|The GPS is more durable that you thought.|Still working, hmm...|I don't think the GPS agrees with this.
+---
+Magic 8-Ball,8-Ball,8-ball,8 ball, 8ball, magic 8-ball
+2
+shake,use,look at:"YES"|"No"|"Don't count on it."|"Maybe"|"Most likely"
+---
+Soda,soda,can,coke,pop,soda pop
+1
+drink:You feel pretty good now.|Gulp,Gulp,Gulp!|That hit the spot!
+shake:I wouldn't open this anytime soon.
+---
+Pistol,pistol,gun,Gun,handgun
+4
+shoot,fire,use:Bang bang!
+throw:Nice one!|That works, too.
+wield:You're holding the pistol in your hand.|You look so hard.
+load:Locked and loaded!|*click*
+---
+Dagger,dagger,knife
+2
+use,wield,swing:Calm down, ninja.|(Whipping sounds)
+throw:That's dangerous, man.|Careful, now.
+touch:Careful, now.
+---
+Assault Rifle,rifle,assault rifle,carbine
+10
+wield:You're holding the assault rifle at the ready.|Assault rifle equipped!
+shoot,use:Bang Bang!|Pew!|Pop, pop, pop!
+load:Locked and loaded!|*click*
+---
+iPhone,iphone,cellphone,cell phone,cell
+1
+touch,examine,look at:Looks shiny!|Wow, it's so pretty!
+use,call:You don't know any phone numbers.|"Hello?"
+play,play with:Playing Bejeweled.|Playing Clash of Clans.|Having fun?
+check:You have no new notifications.
+---
+Skateboard,skateboard
+5
+ride:Kick, push!|You look so cool right now.|
+perform trick,use:Kickflip!|You wish someone had a video camera right now.|SHRED IT, SON!
+wield:You're ready to do some damage.
+throw:You're gonna break it, fool!|Calm down!
+---
+100lb Rock,rock,100lb rock
+100
+---
+Laptop,laptop
+5
+open,use,check:Checking Facebook...|Nothing cool on Craigslist today.|Time for some Reddit!
+throw,kick,smash,break:On second thought...|The laptop refuses.|This thing's expensive, man.
+---
+Lighter,lighter
+1
+use,flick,light:Fire!|
+---
+Fire
+1
+examine,look at:It looks like a fire.|How are you even holding this right now?|Someone must have dropped their mixtape.
+touch:It burns!!|OW!|HOT, HOT, HOT!
+use:You used *fire*. It's super effective!|Is it hot in here?
+---
+===
+Rooms:
+Entrance Hall
+You're in a large entrance hall. 
+The front door is boarded shut. You hear muffled noises in the distance. There's blood on the floor. How did you get here?
+---
+Hallway
+You stand in a narrow corridor. There's a staircase leading upward. The light above you flickers.
+---
+Staging Area
+Large open doors lead out toward the courtyard. This room seems to have been ransacked. The furniture has been flipped over, and the room is in general disarray.
+---
+Courtyard
+It's dark outside. You're fenced in by tall barbed wire fences. You see fresh footprints leading inside from the gate, but none leading out.
+You have the feeling that you're not alone...
+Contents: 100lb Rock
+---
+Briefing Room
+There's a large, round desk in the middle of the room. The map on the wall has been ripped apart.
+Contents: Laptop
+---
+Armory
+There are empty weapon racks here. There's a table in the middle of the room.
+Contents: Assault Rifle
+---
+Basement
+It's noticeably colder down here. You hear muffled screams close-by. Something is down here...
+---
+Dungeon
+There's blood on the floor here. The screaming gets louder.
+---
+Interview Room
+There's a table here. Mirrors surround you. You feel like you're being watched.
+Contents: Pistol
+---
+Torture Chamber
+BANG BANG BANG! Hollow, inhuman screams are coming from the cell in front of you. Someone is banging on the door.
+There is an empty chair in the middle of the room. Broken chains are on the floor.
+Contents: Dagger
+---
+Holding Cell A
+This holding cell is empty. There are bloody scratch marks on the wall. What happened in here?
+Contents: Lighter
+---
+Holding Cell B
+The door slams shut behind you. The screaming subsides. Nothing's here! You could have sworn you heard someone in here!
+The door behind you is locked. You're trapped!!!
+---
+Holding Cell C
+There are chains on the wall. It smells funny in here.
+---
+Cafeteria
+There are some tables here. The fridge is open, but it looks empty.
+Contents: Soda
+---
+Control Room
+There are screens lining the wall, and a panel filled with buttons. There seems to be no power.
+Contents: iPhone
+---
+Balcony
+You look into the distance. It's dark outside. You see trees swaying in the wind. You're in a forest it seems.
+Contents: Skateboard
+---
+Berthing
+There are bunk beds on opposite ends of the room. The beds are made, with the exception of one. There's a desk in the corner.
+Contents: GPS
+---
+===
+Exits:
+Entrance Hall
+n
+Hallway
+---
+Hallway
+n
+Staging Area
+---
+Hallway
+d
+Basement
+---
+Hallway
+u
+Balcony
+---
+Hallway
+e
+Cafeteria
+---
+Cafeteria
+s
+Control Room
+---
+Cafeteria
+n
+Staging Area
+---
+Staging Area
+n
+Courtyard
+---
+Staging Area
+s
+Hallway
+---
+Staging Area
+se
+Cafeteria
+---
+Staging Area
+e
+Armory
+---
+Staging Area
+ne
+Briefing Room
+---
+Basement
+u
+Hallway
+---
+Basement
+n
+Dungeon
+---
+Dungeon
+s
+Basement
+---
+Dungeon
+e
+Interview Room
+---
+Interview Room
+w
+Dungeon
+---
+Dungeon
+n
+Torture Chamber
+---
+Torture Chamber
+n
+Holding Cell B
+---
+Torture Chamber
+w
+Holding Cell A
+---
+Torture Chamber
+e
+Holding Cell C
+---
+Holding Cell A
+w
+Torture Chamber
+---
+Holding Cell C
+e
+Torture Chamber
+---
+Balcony
+d
+Hallway
+---
+Balcony
+s
+Berthing
+---
+Berthing
+n
+Balcony
+---
+Control Room
+w
+Cafeteria
+---
+Armory
+w
+Staging Area
+---
+Courtyard
+s
+Staging Area
+---
+Briefing Room
+sw
+Staging Area
+---
+===
+
+
+
+
+
+
+
+

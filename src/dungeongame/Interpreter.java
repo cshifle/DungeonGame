@@ -1,31 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package dungeongame;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Hashtable; 
-import java.io.File;				
-import java.util.Scanner;	
+import java.io.File;				// Source: http://docs.oracle.com/javase/7/docs/api/java/io/File.html
+import java.util.Scanner;			// Source: http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html#Scanner(java.io.File)
 
-/* This is the main() class that directs operations. For now, it should 
-create a new hardcoded Dungeon, initialize the GameState with it, and repeatedly
-prompt the user for input. Each time the user inputs a command, it should use 
-the CommandFactory to instantiate a new Command object and execute it. If the 
-user enters "q", it terminates the program.
-
-*/
-class DungeonGame {
-
- private static GameState state;
- private static CommandFactory commandFactory;	
+class Interpreter {
 	
-    public static void main(String[] args) {
+	private static GameState state;
+	private static CommandFactory commandFactory;	
 	
-	// Command Line Arguments
+	public static void main(String[] args) {
+	
+				// Command Line Arguments
 				String filename = " " ;
 				String fileExt = " ";
 				
@@ -122,7 +110,7 @@ class DungeonGame {
 				System.out.println("   ██████╔╝  ██║   ██║  ██████╔╝  █████╔╝ ");
 				System.out.println("   ██╔══██╗  ██║   ██║  ██╔══██╗  ██╔═██╗ ");
 				System.out.println("   ██████╔╝  ╚██████╔╝  ██║  ██║  ██║  ██╗" + Ansi.SANE + "     Version 3.0" + Ansi.GREEN);
-				System.out.println("   ╚═════╝    ╚═════╝   ╚═╝  ╚═╝  ╚═╝  ╚═╝" + Ansi.SANE + "     Christopher Shifflett \n\n");
+				System.out.println("   ╚═════╝    ╚═════╝   ╚═╝  ╚═╝  ╚═╝  ╚═╝" + Ansi.SANE + "     Created by Joe Goulet, CPSC 240\n\n");
 				System.out.println(GameState.instance().getAdventurersCurrentRoom().describe());
 		}
 }

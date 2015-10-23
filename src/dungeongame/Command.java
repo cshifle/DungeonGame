@@ -1,20 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package dungeongame;
 
-/**
- *
- * @author Christopher
- */
-class Command {
-    String dir;
-    
-    Command(String dir){
-        this.dir = dir;
-    }
-    
+abstract class Command {
+	
+	String execute() {
+		return "I am an abstract superclass.";
+		}
 }
